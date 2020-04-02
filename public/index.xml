@@ -6,9 +6,109 @@
     <description>Recent content on Eric Belvin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 15:20:50 -0500</lastBuildDate>
     
 	<atom:link href="https://eric.belvin.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comments example</title>
+      <link>https://eric.belvin.com/post/comments-example/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/comments-example/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>Ante mattis interdum dolor</title>
+      <link>https://eric.belvin.com/post/post2/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tempus sed nulla imperdiet</title>
+      <link>https://eric.belvin.com/post/post5/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>Odio magna sed consectetur</title>
+      <link>https://eric.belvin.com/post/post4/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>Augue lorem primis vestibulum</title>
+      <link>https://eric.belvin.com/post/post3/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primis eget imperdiet lorem</title>
+      <link>https://eric.belvin.com/post/post6/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>Ante mattis interdum dolor</title>
+      <link>https://eric.belvin.com/post/post7/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post7/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>Augue lorem primis vestibulum</title>
+      <link>https://eric.belvin.com/post/post8/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post8/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>first post</title>
+      <link>https://eric.belvin.com/post/post/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://eric.belvin.com/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/about-me/</guid>
+      <description>Beginnings  Freelancing  Professional Life  </description>
+    </item>
+    
+    <item>
+      <title>Primis eget imperdiet lorem</title>
+      <link>https://eric.belvin.com/post/post1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eric.belvin.com/post/post1/</guid>
+      <description>Example of post with missing date property.</description>
+    </item>
     
   </channel>
 </rss>
