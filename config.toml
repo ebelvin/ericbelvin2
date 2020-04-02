@@ -4,6 +4,7 @@ baseURL = "https://eric.belvin.com"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
+#disableKinds = ["section"]
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 # [params]
