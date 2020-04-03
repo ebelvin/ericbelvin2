@@ -25,7 +25,9 @@
                             {{ .Content }}
 
                             {{ partial "postcustom" . }}
-                            
+
+										        {{ partial "tags" . }}
+
                             {{ if not (eq .Params.disableComments true) }}
                             {{ template "_internal/disqus.html" . }}
                             {{ end }}

@@ -19,5 +19,6 @@
     <ul class="actions">
         <li><a href="{{ .Permalink }}" class="button big">{{ $data.post.linktext }}</a></li>
     </ul>
+   {{ partial "tags" . }}
 </article>
 {{ end }}

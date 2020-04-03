@@ -1,4 +1,4 @@
-<!-- Posts -->
+<!-- List of Blog Posts -->
 {{ $data := .siteData }}
 <section class="posts">
     {{ range .posts.Pages }}
@@ -20,6 +20,7 @@
         <ul class="actions">
             <li><a href="{{ .Permalink }}" class="button">{{ $data.post.linktext }}</a></li>
         </ul>
+       {{ partial "tags.html" . }}
     </article>
     {{ end }}
 </section>
