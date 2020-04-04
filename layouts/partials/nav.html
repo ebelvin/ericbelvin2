@@ -8,7 +8,7 @@
         <li {{ if eq $currentpage .Title }} class="active" {{ else }}  class="inactive"  {{ end }}><a href='{{ .Permalink }}'>{{.Title}}</a></li>
         {{ end }}
         {{ with $data.contactinfo }}
-        <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
+        <li><a href='{{ "#footer" }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
         {{ end }}
         {{ if .IsTranslated }}
         {{ range .AllTranslations }}
