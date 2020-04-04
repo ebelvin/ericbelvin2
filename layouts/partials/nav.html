@@ -1,9 +1,12 @@
 <!-- Nav -->
 {{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $currentpage := .Params.Title}}
 <nav id="nav">
     <ul class="links">
-        <li class="active"><a href='{{ "/" | relLangURL }}'>Blog</a></li>
-        <li class="active"><a href="/singlepages/about">About Me</a></li>
+        <li {{ with $currentpage }} class="inactive" {{ else }}  class="active"  {{ end }}><a href='{{ "/" | relLangURL }}'>Blog</a></li>
+        {{ range where .Site.Pages "Type" "singlepages" }}
+        <li {{ if eq $currentpage .Title }} class="active" {{ else }}  class="inactive"  {{ end }}><a href='{{ .Permalink }}'>{{.Title}}</a></li>
+        {{ end }}
         {{ with $data.contactinfo }}
         <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
         {{ end }}

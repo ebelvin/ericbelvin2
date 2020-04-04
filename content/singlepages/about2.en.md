@@ -1,6 +1,6 @@
 +++
-title = 'About Me'
-slug = 'About'
+title = 'About2'
+slug = 'About2'
 image = 'images/pic03.jpg'
 description = 'Biography'
 disableComments = true
