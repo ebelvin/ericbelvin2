@@ -25,6 +25,11 @@
     </section>
     {{ end }}
     <section class="split contact">
+        <ul>
+            {{ range .Site.Taxonomies.tags }}
+        	    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+            {{ end }}
+        </ul>
         {{ with $data.contactinfo.address }}
         <section class="alt">
             <h3>{{ i18n "CONTACT_ADDRESS" . }}</h3>
