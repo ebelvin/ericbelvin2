@@ -18,9 +18,9 @@
         <p>{{ .Summary }}</p>
         {{ end }}
         <ul class="actions">
-            <li><a href="{{ .Permalink }}" class="button">{{ $data.post.linktext }}</a></li>
+            <li><a href="{{ .Permalink }}" class="button">{{ $data.post.linktext }}</a>
+                {{ partial "tags.html" . }}</li>
         </ul>
-       {{ partial "tags.html" . }}
     </article>
     {{ end }}
 </section>

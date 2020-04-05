@@ -1,4 +1,7 @@
-{{ range .Params.tags }}
+{{ with .Params.tags}}
+&nbsp;&nbsp;&nbsp;&nbsp;#
+{{ range . }}
 {{ $url := printf "tags/%s" (. | urlize | lower) }}
-   <li><a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a></li>
+  <a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a>&nbsp;&nbsp;
+{{ end }}
 {{ end }}

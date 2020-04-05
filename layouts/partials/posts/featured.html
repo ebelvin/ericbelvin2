@@ -17,8 +17,9 @@
     <a href="{{ .Permalink }}" class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></a>
     {{ end }}
     <ul class="actions">
-        <li><a href="{{ .Permalink }}" class="button big">{{ $data.post.linktext }}</a></li>
+        <li><a href="{{ .Permalink }}" class="button big">{{ $data.post.linktext }}</a>
+        {{ partial "tags.html" . }}
+        </li>
     </ul>
-   {{ partial "tags" . }}
 </article>
 {{ end }}
