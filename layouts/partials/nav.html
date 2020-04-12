@@ -18,8 +18,17 @@
     </ul>
     {{ with $data.social }}
     <ul class="icons">
-        {{ with .twitter }}
-        <li><a href="{{ . }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        {{ with .soundcloud }}
+        <li><a href="{{ . }}" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+        {{ end }}
+        {{ with .apple}}
+        <li><a href="{{ . }}" class="icon alt fa-music"><span class="label">Apple Music</span></a></li>
+        {{ end }}
+        {{ with .spotify}}
+        <li><a href="{{ . }}" class="icon alt fa-spotify"><span class="label">Spotify</span></a></li>
+        {{ end }}
+        {{ with .twitter}}
+        <li><a href="{{ . }}" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
         {{ end }}
         {{ with .facebook }}
         <li><a href="{{ . }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>

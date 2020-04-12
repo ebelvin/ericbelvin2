@@ -28,11 +28,11 @@
 		{{ $postsPaging := .Paginate $postsForPaging $postsPageSize }}
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in" data-pfn="{{ $postsFoldername }}" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
+			<div id="wrapper" data-pfn="{{ $postsFoldername }}" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
 
-				{{ if eq $postsPaging.PageNumber 1 }}
+				<!-- {{ if eq $postsPaging.PageNumber 1 }}
 				{{ partial "intro.html" . }}
-				{{ end }}
+				{{ end }} -->
 
 				{{ partial "header" . }}
 				{{ partial "nav" . }}
